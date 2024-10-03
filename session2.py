@@ -5,13 +5,13 @@ def main():
     int2 = 2
     
     sum = fl1 + fl2
-    print(sum)
+    print(sum, type(sum))
     
     diff = int1 - int2
-    print(diff)
+    print(diff, type(diff))
     
     prod = fl1 * int2
-    print(prod)
+    print(prod, type(prod))
     
 if __name__ == "__main__":
     main()
